@@ -13,6 +13,7 @@ body
 header
 	background #222
 	border-bottom 3px solid #0AF
+	display box
 	display -moz-box
 	display -webkit-box
 	-webkit-box-orient horizontal
@@ -32,17 +33,22 @@ header
 		padding 0
 
 	img
-		width 100%
+		width 50%
+		vertical-align middle
 
 	#logo,#titulo_nav,#avatar
 		-webkit-box-flex 1
 		-moz-box-flex 1
-		padding 0.5em
-		text-align center
+		display block
+		padding 0.25em
+		text-align center		
 
-	#logo img
-		width 43px
-		height 40px
+	#avatar a
+		background #444
+		display block
+		margin 0
+		padding 3px
+		text-decoration none
 
 	#avatar img
 		width 24px

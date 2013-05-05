@@ -1,6 +1,34 @@
 extends layout
 
 block content
-	div
-		a(id='sender')='Send a Message'
-		ul(id='receiver')
+	header
+		figure#logo
+			img(src="/images/logo.jpg",alt="Puls3",title="Puls3")
+		div#titulo_nav
+			h1 Comunidad de XDs
+			nav
+				a(href="#") Home
+		figure#avatar
+			a(href="#")
+				img(src="/images/avatar.jpeg")
+
+	section#contenido
+		article.item
+			div.votos
+				div
+					a(href="#") Up
+				div.puntos
+					| 343
+				div
+					a(href="#") Down
+			div.titulo_item
+				figure
+					img(src="foto.jpg")
+					figcaption Título de la noticia
+						a(href="#") Enviado Por
+			.autor
+				p Enviado Por &nbsp;
+					a(href="#") Me
+				p.tag Gaming
+
+

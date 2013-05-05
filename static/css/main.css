@@ -1,0 +1,10 @@
+a{color:#00f}
+a:visited{color:#00d}
+body{color:#333;font-family:"Arial";font-size:16px;text-align:left}
+header{background:#222;border-bottom:3px solid #0af;display:-moz-box;display:-webkit-box;-webkit-box-orient:horizontal;-webkit-box-align:center;-webkit-box-pack:center;-moz-box-orient:horizontal;-moz-box-pack:center;-moz-box-align:center;color:#ddd;margin:0;width:100%;}
+header h1{font-size:1.5em;font-weight:normal;margin:0;padding:0}
+header img{width:100%}
+header #logo,header #titulo_nav,header #avatar{-webkit-box-flex:1;-moz-box-flex:1;padding:.5em;text-align:center}
+header #logo img{width:43px;height:40px}
+header #avatar img{width:24px;height:24px}
+header #titulo_nav{-webkit-box-flex:8;-moz-box-flex:8}
